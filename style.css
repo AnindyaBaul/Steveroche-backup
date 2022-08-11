@@ -1,0 +1,352 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+background-color:#01090b; 
+}
+nav{
+    background-color:#01090b; 
+    height: 100px;
+    width:75%;
+    z-index: 70;
+}
+nav input{
+  width: 0;
+  border:0;
+  height:28px;
+  border-radius: 10px;
+  /* padding-left: 10px; */
+  outline:0;
+  transition: 1s;
+}
+.nav-image-logo{
+    height:50px;
+    width: 180px;
+}
+.nav-image-logo img{
+    height:100%;
+    width: 100%;
+}
+nav ul li{
+    margin-right: 10px;
+    font-size: 15px;
+}
+.fa-magnifying-glass,.fa-bag-shopping{
+font-size:27px;
+color:#8cd8e1;
+}
+.fa-bag-shopping{
+margin-inline: 10px;
+}
+.nav-form div{
+    height:28px;
+    border: 0;
+    border-right: 4px solid white;
+    padding-right:10px;
+}
+#search-btn-2{
+    display: none;
+}
+/* video */
+.video-section{
+    background: url(./Video/logo\ 1\ video.mp4);
+}
+/* aboutUs */
+.aboutUs-cont{
+    background: url(./images/Layer\ 4.png)no-repeat;
+
+    background-size: 60%;
+    height: 800px;
+}
+.gradient-1{
+    height:100%;
+    background: linear-gradient(rgba(12, 147, 200, 0.192),rgba(255, 255, 255, 0.381));
+}
+.main-btn{
+    border: 1px solid lightgray;
+    background-color:white;
+    padding:10px 25px 10px 25px;
+    border-radius:10px;
+}
+.services-bg{
+    background: url(./images/Vector\ Smart\ Object\ copy\ 8.png)no-repeat;
+    height: 600px;
+    background-position: right;
+
+}
+.machine-learning{
+    flex-direction: row-reverse;
+}
+.coding-bg{
+    background: url(./images/Vector\ Smart\ Object.png)no-repeat;
+    height: 600px;
+    background-position:bottom left;   
+    
+}
+.carved-bg{
+    /* background-color:rgba(255, 255, 255, 0.532); */
+    background: linear-gradient(white,rgba(255, 255, 255, 0),rgba(255, 255, 255, 0));
+    position: relative;
+    z-index: 11;
+}
+.Smart-Object{
+    filter: opacity(80%);
+    height:3000px;
+    width:100%;
+}
+.robot-bg{
+    height:100%;
+    background:url(./images/bee.jpg)no-repeat fixed;
+    background-size:100%;
+    position: relative;
+    z-index:10;
+}
+.robot-bg-mobile{
+   display: none;
+}
+.card{
+    background-color: rgba(0, 0, 0, 0.373)!important;
+    color:white;
+    border-radius: 10px!important;
+}
+.card-title{
+    font-size: 31px;
+    color:#0DCAF0;
+    margin-block: 30px!important;
+}
+.card-text{
+    text-align: justify;
+}
+.row{
+    /* margin-bottom: 200px!important; */
+    row-gap:80px;
+}
+.card img{
+    width: 75%;
+    aspect-ratio:1;
+    /* height: 200px; */
+    margin: auto;
+}
+.card-img-top{
+    transition: 1s;
+}
+.card:hover .card-img-top{
+transform: scale(1.2) translateY(-30px)!important;
+}
+.card:hover{
+box-shadow: 0 0 20px rgba(211, 211, 211, 0.403);
+}
+
+footer{
+    background: url(./images/robot-hand-finger-ai-background-technology-graphics.png);
+    background-position: top;
+    height: 600px;
+    color: white;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer a:hover{
+    color: #0DCAF0;
+}
+footer ul{
+   list-style: none;
+   padding: 0;
+}
+footer li{
+    margin: 0;
+    padding: 0;
+margin-bottom: 10px;
+}
+footer h2{
+    font-weight: 700;
+    font-size: 40px;
+}
+.fb:hover{
+  color: #1095F4;
+  transform: scale(1.5);
+  transition: 0.5s;
+}
+.ins:hover{
+  color:#7C3BC4;
+  transform: scale(1.5);
+  transition: 0.5s;
+}
+.twi:hover{
+  transform: scale(1.5);
+  transition: 0.5s;
+}
+.g-plus:hover{
+    color: #D14A3E;
+  transform: scale(1.5);
+  transition: 0.5s;
+}
+.linkedin:hover{
+    color: #2662A9;
+  transform: scale(1.5);
+  transition: 0.5s;
+}
+.punter:hover{
+    color: #DA0018;
+  transform: scale(1.5);
+  transition: 0.5s;
+}
+/* mobile-css */
+@media only screen and (max-width: 688px){
+    nav{
+        width: 100% !important;;
+    }
+    .nav-ul{
+        background-color: #01090be9;
+        padding-bottom:20px;
+        padding-left: 20px;
+        padding-top: 10px;
+    }
+    .container-fluid{
+        padding: 0 !important;;
+    }
+	.education-nao{
+        flex-direction: column;
+    }
+	.education-nao img{
+      height:300px;
+
+    }
+    .aboutUs-cont{
+        height: 1000px;
+    }
+    .Setup-And-Delivery{
+        flex-direction: column;
+    }
+    .Setup-And-Delivery img{
+      height:200px;
+    }
+    .services-bg{
+        background-size:20%;
+        margin: 120px 0 0 0;
+    }
+    .machine-learning{
+        flex-direction: column!important;
+        margin: 80px 0 0 0;
+    }
+    .machine-learning img{
+     height: 200px;
+    }
+    .Program-Coding-text{
+        width: 100% !important;
+        height:300px;
+    }
+    .coding-bg{
+        background-size:30%;
+    }
+    .automation{
+        flex-direction: column;
+        margin: 200px 0 0 0;
+    }
+    .automation img{
+      height:200px;
+    }
+    .robot-bg{
+        display:none ;
+    }
+    .robot-bg-mobile{
+        display: block;
+        background: url(./images/bee.jpg)fixed;
+        height:auto;
+        background-size:100%;
+    
+    }
+    .robot-bg-mobile-shade{
+        background-color: rgba(0, 0, 0, 0.487);
+
+        height: 100%;
+    }
+    /* .Smart-Object{
+        filter: opacity(80%);
+        height: 6000px !important;;
+        width:100%;
+    }
+    .carved-bg{
+      height: 6000px!important;
+      overflow: scroll;
+    } */
+    footer{
+        height:auto;
+    }
+    .footer-text-cont{
+        flex-direction: column;
+    }
+    .Useful-Links{
+        margin-top:40px;
+    }
+}
+@media only screen and (min-width: 689px) and (max-width:992px) {
+    nav{
+        width: 100% !important;
+        /* background-color: red!important; */
+    }
+    .nav-ul{
+        background-color: rgba(0, 0, 0, 0.757);
+        /* height:530px; */
+        padding-left: 20px;
+        padding-bottom:20px;
+    }
+    nav li{
+       margin-bottom:25px;
+       font-size:25px!important;
+    }
+    /* video{
+        height:530px;
+    } */
+    .container-fluid{
+        padding: 0!important;
+    }
+    .education-nao{
+        flex-direction: column;
+        /* height: 1300px;
+        border: 1px solid red; */
+    }
+    .aboutUs-cont{
+        height: 1200px;
+    }
+    .main-section img{
+        width:250px;
+    }
+    .robot-bg{
+        display:none ;
+    }
+    .robot-bg-mobile{
+        display: block;
+        background: url(./images/bee.jpg)fixed;
+        height:auto;
+        background-size:100%;
+    
+    }
+    .robot-bg-mobile-shade{
+        background-color: rgba(0, 0, 0, 0.487);
+
+        height: 100%;
+    }
+    footer img{
+        width:150px;
+        height:50px;
+    }
+    .footer-text-cont{
+        gap:21px;
+       
+    }
+    footer h2{
+        font-size: 30px;
+    }
+    .fa-facebook{
+        color: #1095F4!important;
+        cursor: pointer;
+        position: relative;
+        z-index: 100;
+    }
+
+  }
